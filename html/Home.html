@@ -4,27 +4,185 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>home</title>
+ <!-- <link rel="stylesheet" href="style.css"> -->
+ <style>
+  body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  nav{
+  text-align: center;
+   background-color: white;
+   margin-top: -20px;
+   margin-bottom: -20px;
+   position: fixed;
+   width: 100%;
+   height: 130px;
+   z-index: 1;
+
+   
+ 
+    
+  }
+
+  
+    
+  
+    
+  .navigate{
+    display: inline;
+    padding: 24px;
+    margin: 0 40px 0 40px;
+    
+    
+    
+    
+  }
+  ul{
+    list-style-type: none;
+    /* background-color: black; */
+     /* color: aliceblue; */
+      padding: 40px 18px 40px 100px;
+      font-size: 18px;
+      font-weight: 500;
+      
+      
+  }
+  button{
+    background-color: white;
+    color: #0E184E;
+    padding: 8px;
+    width: 100px;
+    margin: 10px 0 10px 0;
+    border: none;
+    border-radius: 4px;
+  }
+  .content{
+   text-align: center;
+   padding: 250px;
+   /* background-color: black; */
+   color: azure;
+   background-image:url('/images/fire.avif') ;
+   background-size:100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   opacity: 1;
+   
+  
+
+
+  }
+  .content h1{
+    font-size: 30px; 
+  }
+  .content p{
+    font-size: 20px;
+  
+  }
+  .video{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ /* padding-bottom: 40px; */
+ /* padding: 0%; */
+
+  }
+  div{
+    padding: 0 100px 0 100px;
+  }
+  .firsth2{
+    text-align: center;
+    padding-top: 30px;
+    color: #0E184E
+  }
+  
+  .span1{
+    width: 50%;
+    font-size: 18px;
+  }
+  .image{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+   
+  }
+  .span2{
+    width: 50%;
+    font-size: 18px;
+  }
+  .table{
+    background-color: #0E184E;
+    color: white;
+    padding: 100px;
+    margin-top: 80px;
+   text-align: center;
+   font-size: larger;
+    /* border-width: 100%; */
+
+  
+  }
+  form{
+  padding: 24px;
+  }
+ </style>
 </head>
 <body>
-  <main class="">
     <nav>
       <ul>
-        <li><a href="./">Home</a></li>
-        <li><a href="about.html">about</a></li>
-        <li><a href="resume.html">resume</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="work.html">Work</a></li>
+        <li class="navigate"><a href="./">Home</a></li>
+        <li class="navigate"><a href="about.html">About</a></li>
+        <li class="navigate"><a href="resume.html">Resume</a></li>
+        <li class="navigate"><a href="contact.html">Contact</a></li>
+        <li class="navigate"><a href="work.html">Work</a></li>
     
       </ul>
     </nav>
-  </main>
-  
-  <section>
-    <img src="/glitters.webp" alt="white woman in glitter dress" width="300" >
-    <video src="/Margaret _Echo_ Pearl Tells Marcel to Get Out of Here.mp4" controls width="300" height="500"></video>
-    <audio src="Oxlade-Ft-P-Prime-Piano-(TrendyBeatz.com).mp3" controls></audio>
+    <!--this is the navigation section-->
+    <article class="content">
+      <h1>HELLO WORLD</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+       Assumenda, quaerat, rerum, ipsa optio saepe est quidem <br> 
+       maiores doloremque ipsam cum delectus! Suscipit magni blanditiis nam, 
+       fugit vero aperiam corporis! <br> Dolorem, officiis pariatur quod dolore
+        quam eligendi maiores molestiae nobis commodi suscipit dolor doloribus <br>
+        nesciunt magni. Eaque, at. Quidem quo ad sunt delectus rerum vel error tempore!</p>
+    </article>
+
+  <div> 
+    <h2 class="firsth2">MY VIDEO</h2>
+  <section class="video">
+    <span class="span1">
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo labore exercitationem magni recusandae qui
+        praesentium, <br>
+        repellendus perspiciatis, cumque neque cum id, pariatur veritatis voluptas dolorum possimus commodi corporis
+        voluptate itaque!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo labore exercitationem magni recusandae qui
+        praesentium, <br>
+        repellendus perspiciatis, cumque neque cum id, pariatur veritatis voluptas dolorum possimus commodi corporis
+        voluptate itaque!</p>
+        </span>
+        
+        <video  src="/Margaret _Echo_ Pearl Tells Marcel to Get Out of Here.mp4" controls width="500" height="400"></video>
   </section>
-  <form>
+
+  <section class="image">
+    <img src="/images/ginger.jpg" alt="white woman in glitter dress" width="500" height="300">
+    <span class="span2">
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo labore exercitationem magni recusandae qui
+        praesentium, <br>
+        repellendus perspiciatis, cumque neque cum id, pariatur veritatis voluptas dolorum possimus commodi corporis
+        voluptate itaque!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo labore exercitationem magni recusandae
+        qui
+        praesentium, <br>
+        repellendus perspiciatis, cumque neque cum id, pariatur veritatis voluptas dolorum possimus commodi corporis
+        voluptate itaque!</p>
+    </span>
+  </section>
+  <!-- <audio src="Oxlade-Ft-P-Prime-Piano-(TrendyBeatz.com).mp3" controls></audio> -->
+  </div>
+  <div class="table">
+  <form >
     <label for="home">home</label><br>
     <input type="text"><br>
     <label for="resume">resume</label><br>
@@ -35,12 +193,10 @@
     <input type="number"><br>
   </form>
  <button>submit</button>
- <section>
-  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas officia autem <br> quam repudiandae explicabo voluptatum laborum vero 
-    consequatur totam officiis, ad maxime debitis vel suscipit necessitatibus est veritatis quia ullam.</p>
- </section>
+ 
  <footer>
   @2024, All right reserved
  </footer>
+</div>
 </body>
 </html>
